@@ -1,0 +1,20 @@
+.abs{
+    height: 50px; width: 50px;
+    background: blue;
+    position:absolute;      /* 상위 요소중 가장 가까운 position 요소를 기준으로 위치 지정 */
+    top: 0px; left: 50px;   /* 상위 요소가 없다면 브라우저 화면을 기준으로 잡음 */
+}
+
+.fixed{
+    height: 50px; width: 50px;
+    background-color: aqua;
+    position:fixed;          /* 고정적인 위치를 할당 (스크롤과 상관 없음) */
+    top: 50px; left: 50px;
+}
+
+.sticky{
+    height: 50px; width: 50px;
+    background-color: purple;
+    position:sticky;          /* 고정적인 위치를 할당 (스크롤과 상관 없음) */
+    top: 0px;
+}

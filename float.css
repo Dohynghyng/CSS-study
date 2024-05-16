@@ -1,0 +1,15 @@
+#a{
+    width:200px; height: 100px;
+    background: red;
+    float:right;
+}
+
+#b{
+    width:200px; height: 200px;
+    background: blue;
+    float:left;
+}
+
+p{
+    clear:both;     /* 이전 float 속성 요소 아래로 내려감 right나 left도 가능 */
+}

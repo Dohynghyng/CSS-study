@@ -1,0 +1,33 @@
+.container{
+    width: 300px; height: 350px;
+    border: 3px solid purple;
+    display: flex;
+    flex-direction: row; /* row-reverse column column-reverse */
+
+    /* 주축 정렬 기준 */
+    justify-content: center;  /* 중앙 */
+    justify-content: flex-start;  /* 컨테이너 왼쪽 */
+    justify-content: flex-start;  /* 컨테이너 오른쪽 */
+    justify-content: space-around;  /* 균등 분포 */
+    justify-content: space-between;  /* 좌,우부터 채우고 균등 분포 */
+    
+    /* 교차축 정렬 기준 */
+    align-items: flex-start;  /* 컨테이너 왼쪽 */
+    align-items: flex-start;  /* 컨테이너 오른쪽 */
+    align-items: space-around;  /* 균등 분포 */
+    align-items: space-between;  /* 좌,우부터 채우고 균등 분포 */
+    align-items: center;  /* 중앙 */
+    
+    flex-wrap: nowrap;  /* 하위 요소가 컨테이너보다 크면 하위 요소 크기를 줄임 */
+    flex-wrap: wrap;  /* 하위 요소가 컨테이너보다 크면 줄을 바꿈 */
+}
+
+.item{
+    width: 80px; height: 80px;
+    background-color: red;
+    border: 3px solid yellow;
+}
+
+.self{
+    align-self: flex-start;  /* 개별 요소 배치 */
+}

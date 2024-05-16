@@ -1,0 +1,23 @@
+ul{
+    color: orange;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; height: 300px;
+
+    color: tomato;
+    font-size: 24px;
+    border: 3px dashed red;
+}
+
+.inherit{
+    /* 생삭을 기본 값으로 변경 */
+    color:initial;
+    /* border를 상속 */
+    border: inherit;
+    /* 상속을 받는 속성은 상속을 받고 아니라면 받지 않는다(기본값)*/
+    font-size: unset;
+}

@@ -1,0 +1,10 @@
+div{
+    box-sizing: border-box;
+    width: 500px;  height: 500px;
+    border: 2px solid red;
+    background-color: tomato;
+    background-image: url(./hongsi.png);
+    background-repeat: no-repeat;         /* 바둑판 반복 제거 */
+    background-position: center;
+    background-size: cover;               /* %, px로도 가능 */
+}
